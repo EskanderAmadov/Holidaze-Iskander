@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "variables";
+
+// Extend Bootstrap theme colors
+$theme-colors: map-merge(
+  (
+    "beige-light": $beige-light,
+    "green-light": $green-light,
+    "orange-light": $orange-light,
+    "orange-light-100": $orange-light-100,
+    "gray-light": $gray-light,
+    "blue-light": $blue-light
+  ),
+  $theme-colors
+);
+
+
+// Bootstrap imports
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+//Own
+@import "layout";
+@import "components/navbar";
+@import "components/footer";
+@import "components/card";
+@import "components/buttons";
+@import "components/homeBanner";

@@ -1,0 +1,56 @@
+.home-banner {
+  min-height: 80vh;
+  background-image: url("../../../public/assets/bergenBy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .overlay-dark {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  .suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: white;
+    border-radius: 0.25rem;
+    max-height: 250px;
+    overflow-y: auto;
+
+    li:hover {
+      background-color: #f8f9fa;
+    }
+  }
+
+  .category-row {
+  span {
+    font-size: 0.9rem;
+  }
+
+  svg {
+    color: $light;
+  }
+
+  @media (max-width: 576px) {
+    gap: 1.5rem;
+    span {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .input-group-lg {
+      font-size: 1rem;
+    }
+  }
+}
