@@ -83,8 +83,8 @@ The goal was to create a modern, real-world booking platform using React and ext
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/EskanderAmadov/ecommerce-store.git
-cd ecommerce-store
+git clone https://github.com/EskanderAmadov/Holidaze-Iskander.git
+cd Holidaze-Iskander
 ```
 
 ### 2. Install dependencies
