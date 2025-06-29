@@ -29,7 +29,7 @@ Holidaze is a responsive venue booking application built with React. It allows u
 
 ## Live Demo
 
-🔗 [Live Site](https://bucolic-lokum-7d5416.netlify.app/)  
+🔗 [Live Site](https://holidaze-iskander.netlify.app/)  
 
 ---
 
